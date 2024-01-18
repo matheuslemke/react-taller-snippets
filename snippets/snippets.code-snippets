@@ -1,0 +1,20 @@
+{
+  "Mount on test file": {
+    "prefix": "mount",
+    "body": ["const mount = () => render$0(<${1:Component} />)"],
+    "description": "Create mount method to render component on test file"
+  },
+  "New Function Component": {
+    "prefix": "comp",
+    "body": [
+      "import { FC } from \"react\"\n\nconst ${1:Component}: FC$0 = () => {\n\treturn <></>\n}\n\nexport { ${1:Component} }\n"
+    ],
+    "description": "Create new functional component"
+  },
+  "Match snapshot": {
+    "prefix": "snap",
+    "body": [
+      "it('should match snapshot', () => {\n\tconst { container } = mount($0)\n\texpect(container).toMatchSnapshot()\n})"
+    ]
+  }
+}
