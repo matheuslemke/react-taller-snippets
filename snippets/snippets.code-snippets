@@ -15,6 +15,7 @@
     "prefix": "snap",
     "body": [
       "it('should match snapshot', () => {\n\tconst { container } = mount($0)\n\texpect(container).toMatchSnapshot()\n})"
-    ]
+    ],
+    "description": "Create unit test case for match the snapshot"
   }
 }
