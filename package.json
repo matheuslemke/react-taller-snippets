@@ -9,6 +9,7 @@
   "categories": [
     "Snippets"
   ],
+  "publisher": "lemke",
   "repository": {
     "url": "https://github.com/matheuslemke/react-taller-snippets",
     "type": "git"
