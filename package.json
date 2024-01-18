@@ -2,7 +2,7 @@
   "name": "react-taller-snippets",
   "displayName": "React Taller Snippets",
   "description": "Code snippets for common React Taller apps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
